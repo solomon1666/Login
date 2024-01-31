@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+}
+
+.box1{
+    width: 70%;
+    background: grey;
+    height: 100vh;
+ background: linear-gradient(rgba(77, 74, 74, 0.418), rgba(77, 74, 74, 0.733)), url(./banner1.jpg);
+    text-align: center;
+    background-position: right;
+
+}
+.b{
+    padding-top: 10rem;
+    padding-right: 10rem;  
+    padding-left: 10rem;
+}
+h1{
+color: white;
+}
+
+h6{
+    color: white;
+}
+ 
+p{
+    color: white;
+}
+
+
+.box2{
+    width: 30%;
+    height: 100vh;
+}
+
+.h{
+    color: black;
+}
+
+form{
+    line-height: 35px;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+}
+
+input{
+    width: 98%;
+    height: 6vh;
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+
+button{
+    width: 98%;
+    background: rgb(58, 58, 58);
+    color: white;
+    border: none;
+    height: 6vh;
+}
+
+button:hover{
+    background: seagreen;
+}
+
+
+.btn1{
+   width: 30%; 
+   background:teal;
+   color: white;
+   border: none;
+   height: 6vh;
+}
+
+.btn1:hover{
+    background: transparent;
+    border: 2px solid teal;
+}
+
+.p2{
+    color: black;
+}
